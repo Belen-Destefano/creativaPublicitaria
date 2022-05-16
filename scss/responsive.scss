@@ -1013,6 +1013,36 @@
 
 @media only screen and (max-width: 412px) {
 
+    #testimonios div div .position {
+        margin: auto;
+        width: 77%;
+    }
+
+    .iconosRedes {
+        
+        padding: 0px 163px;
+    }
+
+    .redesMobile {
+        height: 38px;
+    }
+
+    .iconosRedes div {
+        margin: 0px 6px;
+    }
+
+    footer div p {
+      
+        color: white;
+    }
+  
+    footer {
+        
+        background: rgb(97,124,114);
+        background: linear-gradient(131deg, rgba(97,124,114,1) 0%, rgba(88,113,104,1) 49%, rgba(49,70,62,1) 100%);
+        margin: 0px auto 0rem auto;
+    }
+
     header nav div div ul li {
         margin: 5px -1px;
     }
@@ -1084,6 +1114,10 @@
 
 @media only screen and (max-width: 360px){
 
+    #serviciosHome .servicios-titulo {
+        width: 95%;
+    }
+
     .seccion-muestra-tabajo .titulo-muestra-trabajo {
         top: 20px;
         right: 33px;
@@ -1094,7 +1128,11 @@
     }
 
     .redesMobile {
-        height: 49px;
+        height: 38px;
+    }
+
+    .iconosRedes div {
+        margin: 0px 8px;
     }
 
     .seccion-packs-servicios .contenedor-all-items-packs .contenedor-item-packs .contenedor-titulos-packs {
@@ -1136,6 +1174,8 @@
     #testimonios .posicion-ramas-1 {
         top: -74px;    
         width: 35%;
+
+        right: 2px;
     }
 
     #testimonios .posicion-ramas-2 {
@@ -1143,13 +1183,11 @@
     }
 
     .carousel.pointer-event {
-        width: 100%;}
-
-
-    .iconosRedes {
         width: 100%;
-        padding: 0% 50%;
     }
+
+
+  
 
     #serviciosHome div div .position {    
     
@@ -1202,7 +1240,8 @@
     }
  
     #serviciosHome div div .contenedor-items-servicios-color {
-        width: 23em;
+        width: 22em;
+        margin: auto;
     }
 
     .contenedor-mis-servicios .contenedor-de-servicios .contenedor-servicio {
