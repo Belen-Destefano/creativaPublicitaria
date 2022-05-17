@@ -628,7 +628,7 @@ footer {
   bottom: 20px;
   right: 30px; }
 
-@media only screen and (max-width: 1928px) and (min-width: 1600px) {
+@media only screen and (max-width: 2160px) and (min-width: 1600px) {
   #serviciosHome div div .contenedor-items-servicios-color .contenedor-item-servicios {
     height: 456px; }
   #testimonios div {
