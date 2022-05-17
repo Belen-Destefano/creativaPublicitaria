@@ -1,8 +1,10 @@
 // MOBILEEEEEEEEEEEEEEEEEEEE
-@media only screen and (max-width: 1903px){
+
+@media only screen and (max-width: 1903px) and (min-width: 1600px){
+
     #serviciosHome div div .contenedor-items-servicios-color .contenedor-item-servicios {
 
-        height: 390px;
+        height: 456px;
     }
 
    
@@ -10,6 +12,17 @@
     #testimonios div {
       
         margin: 24px 0px;
+    }
+
+    .seccion-muestra-tabajo .titulo-muestra-trabajo {
+      
+        right: 1198px;
+    }
+
+    .seccion-muestra-tabajo .contenedor-carrusel-muestras-trabajo {
+      
+       
+        right: 147px;
     }
 
 
@@ -146,6 +159,10 @@
 }
 
 @media only screen and (max-width: 1024px){
+    .hover-packs-servicios:hover .contenedor-all-items-packs .contenedor-item-packs .info-desplegable {
+       
+        overflow: hidden;
+    }
 
     .seccion-muestra-tabajo .contenedor-carrusel-muestras-trabajo {
         right: 26px;
@@ -517,6 +534,28 @@
         }
     }
 }
+
+@media only screen and (max-width: 677px){
+
+    #serviciosHome div div .contenedor-items-servicios-color .contenedor-item-servicios {
+        padding: 0px 1% 0px 6%;
+    }
+
+    .seccion-packs-servicios .contenedor-all-items-packs img {
+        width: 13em;
+    }
+
+    .hover-packs-servicios:hover .contenedor-all-items-packs .contenedor-item-packs .info-desplegable {
+        width: 92%;
+        overflow: hidden;
+    }
+
+    .seccion-packs-servicios .contenedor-all-items-packs {
+       
+        margin: 1%;
+    }
+}
+
 
 @media only screen and (max-width: 600px){
 
